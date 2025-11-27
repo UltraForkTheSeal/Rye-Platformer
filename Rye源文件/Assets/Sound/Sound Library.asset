@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60988bf1d9a02b4988b1c7808dd7693, type: 3}
+  m_Name: Sound Library
+  m_EditorClassIdentifier: 
+  _soundDataList:
+  - soundName: Walk
+    clip: {fileID: 8300000, guid: 712097e9c54cb1f40a68027b0e40522b, type: 3}
+  - soundName: Jump
+    clip: {fileID: 8300000, guid: 8c721105ad29d284d922281eb9d2481e, type: 3}
+  - soundName: Death
+    clip: {fileID: 8300000, guid: d5f80b6fbe1d5f5459719a26e6d87d2a, type: 3}
+  - soundName: Respawn
+    clip: {fileID: 8300000, guid: c82f1ef796c102549b8fd6c727cf4169, type: 3}
+  - soundName: Land
+    clip: {fileID: 8300000, guid: 878514c8546a8c14e812b380b7a7fa94, type: 3}
+  - soundName: LiftObject
+    clip: {fileID: 8300000, guid: 4be29ccbc2dc0764fa7ff2d5f22365ba, type: 3}
+  - soundName: DropObject
+    clip: {fileID: 8300000, guid: 878514c8546a8c14e812b380b7a7fa94, type: 3}
+  - soundName: Teleport
+    clip: {fileID: 8300000, guid: 1276efb44e08c1a43945403ae329509d, type: 3}
+  - soundName: SwitchOn
+    clip: {fileID: 8300000, guid: e08ae7346c0fbed43809cec8f7303a43, type: 3}
+  - soundName: SwitchOff
+    clip: {fileID: 8300000, guid: c9bba34a1a4124c4dae95e3fae3a34ec, type: 3}
+  - soundName: BlockFall
+    clip: {fileID: 8300000, guid: 3db62d26ee6ca5845a84a7559e9239de, type: 3}
+  - soundName: BlockRestore
+    clip: {fileID: 8300000, guid: cd55bb5196a5c6148b454ceb7f8790a1, type: 3}
+  - soundName: Sleep
+    clip: {fileID: 8300000, guid: 49bc553752ccc5c4d8ccbe08f3cb95cd, type: 3}
+  _multipleSoundDataList:
+  - soundsName: LauncherStart
+    clips:
+    - {fileID: 8300000, guid: 0ce5fb83675dacb4489cc445d1abdfab, type: 3}
+    - {fileID: 8300000, guid: db1304fc886baf541a0bfdb04c3d4b03, type: 3}
+    - {fileID: 8300000, guid: 6cd6255c1f5457048b84f244cfdee685, type: 3}
+    - {fileID: 8300000, guid: eb11af466723f7c4285d467f1cf194ed, type: 3}
+  - soundsName: WalkMulti
+    clips:
+    - {fileID: 8300000, guid: 967fc08cc8ed24d48b4ec129588a3f6e, type: 3}
+    - {fileID: 8300000, guid: 712097e9c54cb1f40a68027b0e40522b, type: 3}
+    - {fileID: 8300000, guid: 1139de12b4f348b4ba3be95ef0f89b86, type: 3}
+    - {fileID: 8300000, guid: a84b1833ca40c1f47b93703927ab4de5, type: 3}
+  - soundsName: WalkConcrete
+    clips:
+    - {fileID: 8300000, guid: 6800bbde87fbec848b0ccf7a073f8911, type: 3}
+    - {fileID: 8300000, guid: 4fee94272376fbd41a2ff4afc5d4a07f, type: 3}
+  - soundsName: WalkGlass
+    clips:
+    - {fileID: 8300000, guid: 68319652d0c7d30439ce5b2d555dc8ed, type: 3}
+  - soundsName: WalkWood
+    clips:
+    - {fileID: 8300000, guid: 92f13f2b592cec84b9aac6095a99e062, type: 3}
+    - {fileID: 8300000, guid: 0e6c530dd4a4f5e4d986c5c0da510495, type: 3}
+  - soundsName: WalkGrass
+    clips:
+    - {fileID: 8300000, guid: 7c70dfb6b0020bb48b0f2ca1088f1228, type: 3}
+    - {fileID: 8300000, guid: 1cea4939db6f1104296531f2b8cc6552, type: 3}
+  - soundsName: WalkMetal
+    clips:
+    - {fileID: 8300000, guid: 0f2e95c0155733842aec55158a60e127, type: 3}
+    - {fileID: 8300000, guid: c9ba085ed9ce9f944ae34b5b56665fe6, type: 3}
+  - soundsName: WalkSand
+    clips:
+    - {fileID: 8300000, guid: b0bc780b23cf52549bf97fd3dbd031ba, type: 3}
+    - {fileID: 8300000, guid: 34c67cef21d5fb8498b887b7d099fad0, type: 3}
+    - {fileID: 8300000, guid: 0753fb286f4352340beda56f54b6ac6a, type: 3}
+  - soundsName: WalkWater
+    clips:
+    - {fileID: 8300000, guid: fc6b81e2edb78194eb0f3bc0bf3ec2b1, type: 3}
+    - {fileID: 8300000, guid: 138a45411137c414f8ee58d934966dd1, type: 3}
+    - {fileID: 8300000, guid: bdd7d1e283474b540b98c2e05cc42b43, type: 3}
